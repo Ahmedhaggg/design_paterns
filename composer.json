@@ -1,0 +1,15 @@
+{
+    "name": "rady/design_paterns",
+    "autoload": {
+        "psr-4": {
+            "Rady\\DesignPaterns\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ahmedhaggg",
+            "email": "ahmedhaggagrady@gmail.com"
+        }
+    ],
+    "require": {}
+}
