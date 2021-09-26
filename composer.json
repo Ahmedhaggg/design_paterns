@@ -2,7 +2,8 @@
     "name": "rady/design_paterns",
     "autoload": {
         "psr-4": {
-            "Rady\\DesignPaterns\\": "src/"
+            "Rady\\DesignPaterns\\": "src/",
+            "Paterns\\": "Paterns/"
         }
     },
     "authors": [
@@ -11,5 +12,7 @@
             "email": "ahmedhaggagrady@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "9.5.5"
+    }
 }
