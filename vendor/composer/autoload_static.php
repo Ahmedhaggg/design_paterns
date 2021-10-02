@@ -21,6 +21,10 @@ class ComposerStaticInit2300411a5084419a504dcb47ebb29b40
         array (
             'Webmozart\\Assert\\' => 17,
         ),
+        'T' => 
+        array (
+            'TokenAuth\\' => 10,
+        ),
         'S' => 
         array (
             'Symfony\\Polyfill\\Ctype\\' => 23,
@@ -40,6 +44,10 @@ class ComposerStaticInit2300411a5084419a504dcb47ebb29b40
             'Doctrine\\Instantiator\\' => 22,
             'DeepCopy\\' => 9,
         ),
+        'B' => 
+        array (
+            'BasicAuth\\' => 10,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
@@ -52,6 +60,10 @@ class ComposerStaticInit2300411a5084419a504dcb47ebb29b40
         'Webmozart\\Assert\\' => 
         array (
             0 => __DIR__ . '/..' . '/webmozart/assert/src',
+        ),
+        'TokenAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rady/token-auth-library/TokenAuth',
         ),
         'Symfony\\Polyfill\\Ctype\\' => 
         array (
@@ -80,6 +92,10 @@ class ComposerStaticInit2300411a5084419a504dcb47ebb29b40
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
+        ),
+        'BasicAuth\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/rady/basic-auth-library/BasicAuth',
         ),
     );
 

@@ -1,0 +1,11 @@
+{
+    "name": "rady/token-auth-library",
+    "description": "token auth library",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "TokenAuth\\": "TokenAuth"
+        }
+    }
+}

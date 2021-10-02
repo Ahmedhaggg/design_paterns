@@ -13,6 +13,18 @@
         }
     ],
     "require": {
-        "phpunit/phpunit": "9.5.5"
-    }
+        "phpunit/phpunit": "9.5.5",
+        "rady/token-auth-library": "@dev",
+        "rady/basic-auth-library": "@dev"
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "BasicAuthLibrary"
+        },
+        {
+            "type": "path",
+            "url": "TokenAuthLibrary"
+        }
+    ]
 }

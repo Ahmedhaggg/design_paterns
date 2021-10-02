@@ -4,9 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ea7011e562ff1b246f1e85dfd3231790",
-    "packages": [],
-    "packages-dev": [
+    "content-hash": "75592e8bd299bc3907ed74004cdfb547",
+    "packages": [
         {
             "name": "doctrine/instantiator",
             "version": "1.4.0",
@@ -847,16 +846,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "9.5.9",
+            "version": "9.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b"
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
-                "reference": "ea8c2dfb1065eb35a79b3681eee6e6fb0a6f273b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/89ff45ea9d70e35522fb6654a2ebc221158de276",
+                "reference": "89ff45ea9d70e35522fb6654a2ebc221158de276",
                 "shasum": ""
             },
             "require": {
@@ -868,7 +867,7 @@
                 "ext-xml": "*",
                 "ext-xmlwriter": "*",
                 "myclabs/deep-copy": "^1.10.1",
-                "phar-io/manifest": "^2.0.3",
+                "phar-io/manifest": "^2.0.1",
                 "phar-io/version": "^3.0.2",
                 "php": ">=7.3",
                 "phpspec/prophecy": "^1.12.1",
@@ -886,7 +885,7 @@
                 "sebastian/global-state": "^5.0.1",
                 "sebastian/object-enumerator": "^4.0.3",
                 "sebastian/resource-operations": "^3.0.3",
-                "sebastian/type": "^2.3.4",
+                "sebastian/type": "^2.3.2",
                 "sebastian/version": "^3.0.2"
             },
             "require-dev": {
@@ -934,7 +933,7 @@
             ],
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.9"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/9.5.5"
             },
             "funding": [
                 {
@@ -946,7 +945,45 @@
                     "type": "github"
                 }
             ],
-            "time": "2021-08-31T06:47:40+00:00"
+            "time": "2021-06-05T04:49:07+00:00"
+        },
+        {
+            "name": "rady/basic-auth-library",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "BasicAuthLibrary",
+                "reference": "c8065a75b66ea93b3d1d1e8b1f5968bfa9c03e4b"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BasicAuth\\": "BasicAuth"
+                }
+            },
+            "description": "basic auth library",
+            "transport-options": {
+                "relative": true
+            }
+        },
+        {
+            "name": "rady/token-auth-library",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "TokenAuthLibrary",
+                "reference": "de6d71bfa1351a2eb7fd2c9d2fd60d78ff903e62"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "TokenAuth\\": "TokenAuth"
+                }
+            },
+            "description": "token auth library",
+            "transport-options": {
+                "relative": true
+            }
         },
         {
             "name": "sebastian/cli-parser",
@@ -2100,9 +2137,13 @@
             "time": "2021-03-09T10:59:23+00:00"
         }
     ],
+    "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "rady/token-auth-library": 20,
+        "rady/basic-auth-library": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

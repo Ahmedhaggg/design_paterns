@@ -14,6 +14,12 @@ require_once "../vendor/autoload.php";
 //$freeCar = $carPool->freeCar(1);
 //var_dump($freeCar);
 
+Use Paterns\Structural\AdapterExample\UserLogin;
+use Paterns\Structural\AdapterExample\BasicAuthAdapter;
 
+
+        $basicAdapter = new BasicAuthAdapter();
+        $login = new UserLogin($basicAdapter);
+        echo $login->login("ahmed", "1234");
 
 

@@ -1,0 +1,11 @@
+{
+    "name": "rady/basic-auth-library",
+    "description": "basic auth library",
+    "type": "library",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "BasicAuth\\": "BasicAuth"
+        }
+    }
+}
